@@ -1,0 +1,288 @@
+TFlexiFormat
+v7
+r0
+t309220569.598744
+cCheck dependencies
+cProcessInfoPlistFile "/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app/Info.plist" FlexiFormat-Info.plist
+cCompileXIB "/Users/justy/Documents/open src/FlexiFormat/MainWindow.xib"
+cCompileXIB "/Users/justy/Documents/open src/FlexiFormat/FlexiFormatViewController.xib"
+cProcessPCH /var/folders/dA/dAphlt6ZH4GW-PkSchfmoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlexiFormat_Prefix-axgalzbhrcvnahczmoktfkgpewsu/FlexiFormat_Prefix.pch.gch FlexiFormat_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/Objects-normal/i386/main.o "/Users/justy/Documents/open src/FlexiFormat/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/Objects-normal/i386/FlexiFormatAppDelegate.o "/Users/justy/Documents/open src/FlexiFormat/Classes/FlexiFormatAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/Objects-normal/i386/FlexiFormatViewController.o "/Users/justy/Documents/open src/FlexiFormat/Classes/FlexiFormatViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/Objects-normal/i386/FlexibleFormatter.o "/Users/justy/Documents/open src/FlexiFormat/Classes/FlexibleFormatter.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app/FlexiFormat" normal i386
+cGenerateDSYMFile "/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app.dSYM" "/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app/FlexiFormat"
+cTouch "/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Users/justy/Documents/open src/FlexiFormat/Classes/FlexiFormatAppDelegate.h
+c000000004CBE1BFB00000000000001FF
+t1287527419
+s511
+i<UIKit/UIKit.h>
+
+N/Users/justy/Documents/open src/FlexiFormat/Classes/FlexiFormatAppDelegate.m
+c000000004CBE1BFB0000000000000AA7
+t1287527419
+s2727
+i"FlexiFormatAppDelegate.h"
+i"FlexiFormatViewController.h"
+
+N/Users/justy/Documents/open src/FlexiFormat/Classes/FlexiFormatViewController.h
+c000000004CBE1BFB0000000000000102
+t1287527419
+s258
+i<UIKit/UIKit.h>
+
+N/Users/justy/Documents/open src/FlexiFormat/Classes/FlexiFormatViewController.m
+c000000004CBE1BFB00000000000005D1
+t1287527419
+s1489
+i"FlexiFormatViewController.h"
+
+N/Users/justy/Documents/open src/FlexiFormat/Classes/FlexibleFormatter.h
+c000000004CBE1D5600000000000002BD
+t1287527766
+s701
+i<Foundation/Foundation.h>
+
+N/Users/justy/Documents/open src/FlexiFormat/Classes/FlexibleFormatter.m
+c000000004CBE1C1C00000000000000E5
+t1287527452
+s229
+i"FlexibleFormatter.h"
+
+N/Users/justy/Documents/open src/FlexiFormat/FlexiFormatViewController.xib
+c000000004CBE1BFB0000000000001A55
+t1287527419
+s6741
+
+N/Users/justy/Documents/open src/FlexiFormat/FlexiFormat_Prefix.pch
+c000000004CBE1BFB00000000000000BF
+t1287527419
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/justy/Documents/open src/FlexiFormat/MainWindow.xib
+c000000004CBE1BFB0000000000004E59
+t1287527419
+s20057
+
+N/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app
+t1287527769
+s238
+
+N/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app.dSYM
+t1287527769
+s102
+
+N/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app/FlexiFormat
+t1287527769
+s17972
+
+N/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app/FlexiFormatViewController.nib
+t1287527767
+s1269
+
+N/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app/Info.plist
+t1287527766
+s607
+
+N/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app/MainWindow.nib
+t1287527767
+s1689
+
+N/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app/PkgInfo
+t1287527766
+s8
+
+N/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/Objects-normal/i386/FlexiFormat.LinkFileList
+c000000004CBE1D560000000000000250
+t1287527766
+s592
+
+N/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/Objects-normal/i386/FlexiFormatAppDelegate.o
+t1287527769
+s48024
+
+N/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/Objects-normal/i386/FlexiFormatViewController.o
+t1287527769
+s34544
+
+N/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/Objects-normal/i386/FlexibleFormatter.o
+t1287527769
+s5444
+
+N/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/Objects-normal/i386/main.o
+t1287527769
+s6312
+
+N/Users/justy/Documents/open src/FlexiFormat/main.m
+c000000004CBE1BFB0000000000000175
+t1287527419
+s373
+i<UIKit/UIKit.h>
+
+N/var/folders/dA/dAphlt6ZH4GW-PkSchfmoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlexiFormat_Prefix-axgalzbhrcvnahczmoktfkgpewsu/FlexiFormat_Prefix.pch.gch
+t1287527768
+s15211536
+
+NFlexiFormat-Info.plist
+c000000004CBE1BFB000000000000038D
+t1287527419
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies309220566#309220566#0(0"0(0#1#0"32651522506817640#0"0#
+
+CCompileC build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/Objects-normal/i386/FlexiFormatAppDelegate.o "/Users/justy/Documents/open src/FlexiFormat/Classes/FlexiFormatAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s309220568.965309
+e309220569.147865
+r1
+xCompileC
+xbuild/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/Objects-normal/i386/FlexiFormatAppDelegate.o
+x/Users/justy/Documents/open src/FlexiFormat/Classes/FlexiFormatAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/justy/Documents/open src/FlexiFormat/Classes/FlexiFormatAppDelegate.m309220568#309220569#0(0"0(0#0#76"/Users/justy/Documents/open src/FlexiFormat/Classes/FlexiFormatAppDelegate.m8602407904#2115"    cd "/Users/justy/Documents/open src/FlexiFormat"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/FlexiFormat-generated-files.hmap" "-I/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/FlexiFormat-own-target-headers.hmap" "-I/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/FlexiFormat-all-target-headers.hmap" -iquote "/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/FlexiFormat-project-headers.hmap" "-F/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator" "-I/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/include" "-I/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/DerivedSources/i386" "-I/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/DerivedSources" -include /var/folders/dA/dAphlt6ZH4GW-PkSchfmoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlexiFormat_Prefix-axgalzbhrcvnahczmoktfkgpewsu/FlexiFormat_Prefix.pch -c "/Users/justy/Documents/open src/FlexiFormat/Classes/FlexiFormatAppDelegate.m" -o "/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/Objects-normal/i386/FlexiFormatAppDelegate.o"0#
+
+CCompileC build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/Objects-normal/i386/FlexiFormatViewController.o "/Users/justy/Documents/open src/FlexiFormat/Classes/FlexiFormatViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s309220568.966519
+e309220569.144517
+r1
+xCompileC
+xbuild/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/Objects-normal/i386/FlexiFormatViewController.o
+x/Users/justy/Documents/open src/FlexiFormat/Classes/FlexiFormatViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/justy/Documents/open src/FlexiFormat/Classes/FlexiFormatViewController.m309220568#309220569#0(0"0(0#0#79"/Users/justy/Documents/open src/FlexiFormat/Classes/FlexiFormatViewController.m8607146144#2121"    cd "/Users/justy/Documents/open src/FlexiFormat"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/FlexiFormat-generated-files.hmap" "-I/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/FlexiFormat-own-target-headers.hmap" "-I/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/FlexiFormat-all-target-headers.hmap" -iquote "/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/FlexiFormat-project-headers.hmap" "-F/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator" "-I/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/include" "-I/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/DerivedSources/i386" "-I/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/DerivedSources" -include /var/folders/dA/dAphlt6ZH4GW-PkSchfmoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlexiFormat_Prefix-axgalzbhrcvnahczmoktfkgpewsu/FlexiFormat_Prefix.pch -c "/Users/justy/Documents/open src/FlexiFormat/Classes/FlexiFormatViewController.m" -o "/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/Objects-normal/i386/FlexiFormatViewController.o"0#
+
+CCompileC build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/Objects-normal/i386/FlexibleFormatter.o "/Users/justy/Documents/open src/FlexiFormat/Classes/FlexibleFormatter.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s309220568.968106
+e309220569.139934
+r1
+xCompileC
+xbuild/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/Objects-normal/i386/FlexibleFormatter.o
+x/Users/justy/Documents/open src/FlexiFormat/Classes/FlexibleFormatter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/justy/Documents/open src/FlexiFormat/Classes/FlexibleFormatter.m:14: warning: incomplete implementation of class 'FlexibleFormatter'
+o/Users/justy/Documents/open src/FlexiFormat/Classes/FlexibleFormatter.m:14: warning: method definition for '-addRule:' not found
+lSLF07#2@79"Compile /Users/justy/Documents/open src/FlexiFormat/Classes/FlexibleFormatter.m309220568#309220569#0(269"/Users/justy/Documents/open src/FlexiFormat/Classes/FlexibleFormatter.m:14: warning: incomplete implementation of class 'FlexibleFormatter'/Users/justy/Documents/open src/FlexiFormat/Classes/FlexibleFormatter.m:14: warning: method definition for '-addRule:' not found2(22@54"Incomplete implementation of class 'FlexibleFormatter'309220569#0#140#0(6@71"/Users/justy/Documents/open src/FlexiFormat/Classes/FlexibleFormatter.m309220252#14#0#14#0#38"incomplete implementation of class '*'0(22@43"Method definition for '-addRule:' not found309220569#140#129#0(6@71"/Users/justy/Documents/open src/FlexiFormat/Classes/FlexibleFormatter.m309220252#14#0#14#0#35"method definition for '*' not found0(0#0#71"/Users/justy/Documents/open src/FlexiFormat/Classes/FlexibleFormatter.m8610292256#2105"    cd "/Users/justy/Documents/open src/FlexiFormat"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/FlexiFormat-generated-files.hmap" "-I/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/FlexiFormat-own-target-headers.hmap" "-I/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/FlexiFormat-all-target-headers.hmap" -iquote "/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/FlexiFormat-project-headers.hmap" "-F/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator" "-I/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/include" "-I/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/DerivedSources/i386" "-I/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/DerivedSources" -include /var/folders/dA/dAphlt6ZH4GW-PkSchfmoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlexiFormat_Prefix-axgalzbhrcvnahczmoktfkgpewsu/FlexiFormat_Prefix.pch -c "/Users/justy/Documents/open src/FlexiFormat/Classes/FlexibleFormatter.m" -o "/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/Objects-normal/i386/FlexibleFormatter.o"0#
+
+CCompileC build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/Objects-normal/i386/main.o "/Users/justy/Documents/open src/FlexiFormat/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s309220568.963739
+e309220569.138537
+r1
+xCompileC
+xbuild/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/Objects-normal/i386/main.o
+x/Users/justy/Documents/open src/FlexiFormat/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/justy/Documents/open src/FlexiFormat/main.m309220568#309220569#0(0"0(0#0#50"/Users/justy/Documents/open src/FlexiFormat/main.m8605492128#2071"    cd "/Users/justy/Documents/open src/FlexiFormat"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/FlexiFormat-generated-files.hmap" "-I/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/FlexiFormat-own-target-headers.hmap" "-I/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/FlexiFormat-all-target-headers.hmap" -iquote "/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/FlexiFormat-project-headers.hmap" "-F/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator" "-I/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/include" "-I/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/DerivedSources/i386" "-I/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/DerivedSources" -include /var/folders/dA/dAphlt6ZH4GW-PkSchfmoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlexiFormat_Prefix-axgalzbhrcvnahczmoktfkgpewsu/FlexiFormat_Prefix.pch -c "/Users/justy/Documents/open src/FlexiFormat/main.m" -o "/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/justy/Documents/open src/FlexiFormat/FlexiFormatViewController.xib"
+s309220566.877624
+e309220567.229085
+r1
+xCompileXIB
+x/Users/justy/Documents/open src/FlexiFormat/FlexiFormatViewController.xib
+lSLF07#2@40"CompileXIB FlexiFormatViewController.xib309220566#309220567#0(0"0(0#0#73"/Users/justy/Documents/open src/FlexiFormat/FlexiFormatViewController.xib8611128864#625"    cd "/Users/justy/Documents/open src/FlexiFormat"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app/FlexiFormatViewController.nib" "/Users/justy/Documents/open src/FlexiFormat/FlexiFormatViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB "/Users/justy/Documents/open src/FlexiFormat/MainWindow.xib"
+s309220566.859520
+e309220567.274257
+r1
+xCompileXIB
+x/Users/justy/Documents/open src/FlexiFormat/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib309220566#309220567#0(0"0(0#0#58"/Users/justy/Documents/open src/FlexiFormat/MainWindow.xib8608519264#595"    cd "/Users/justy/Documents/open src/FlexiFormat"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app/MainWindow.nib" "/Users/justy/Documents/open src/FlexiFormat/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CGenerateDSYMFile "/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app.dSYM" "/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app/FlexiFormat"
+s309220569.517314
+e309220569.571270
+r1
+xGenerateDSYMFile
+x/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app.dSYM
+x/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app/FlexiFormat
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/FlexiFormat.app.dSYM build/Debug-iphonesimulator/FlexiFormat.app/FlexiFormat309220569#309220569#0(0"0(0#0#99"/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app/FlexiFormat8608767552#416"    cd "/Users/justy/Documents/open src/FlexiFormat"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app/FlexiFormat" -o "/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app.dSYM"0#
+
+CLd "/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app/FlexiFormat" normal i386
+s309220569.147954
+e309220569.517203
+r1
+xLd
+x/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app/FlexiFormat
+xnormal
+xi386
+lSLF07#2@104"Link /Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app/FlexiFormat309220569#309220569#0(0"0(0#0#0"8610896096#955"    cd "/Users/justy/Documents/open src/FlexiFormat"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk "-L/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator" "-F/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator" -filelist "/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/Objects-normal/i386/FlexiFormat.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app/FlexiFormat"0#
+
+CProcessInfoPlistFile "/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app/Info.plist" FlexiFormat-Info.plist
+s309220566.850797
+e309220566.859395
+r1
+xProcessInfoPlistFile
+x/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app/Info.plist
+xFlexiFormat-Info.plist
+lSLF07#2@30"Process FlexiFormat-Info.plist309220566#309220566#0(0"0(0#0#66"/Users/justy/Documents/open src/FlexiFormat/FlexiFormat-Info.plist7883959502170449920#512"    cd "/Users/justy/Documents/open src/FlexiFormat"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FlexiFormat-Info.plist -genpkginfo "/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app/Info.plist"0#
+
+CProcessPCH /var/folders/dA/dAphlt6ZH4GW-PkSchfmoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlexiFormat_Prefix-axgalzbhrcvnahczmoktfkgpewsu/FlexiFormat_Prefix.pch.gch FlexiFormat_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s309220567.274452
+e309220568.963440
+r1
+xProcessPCH
+x/var/folders/dA/dAphlt6ZH4GW-PkSchfmoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlexiFormat_Prefix-axgalzbhrcvnahczmoktfkgpewsu/FlexiFormat_Prefix.pch.gch
+xFlexiFormat_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile FlexiFormat_Prefix.pch309220567#309220568#0(0"0(0#0#66"/Users/justy/Documents/open src/FlexiFormat/FlexiFormat_Prefix.pch8607039680#1952"    cd "/Users/justy/Documents/open src/FlexiFormat"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/FlexiFormat-generated-files.hmap" "-I/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/FlexiFormat-own-target-headers.hmap" "-I/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/FlexiFormat-all-target-headers.hmap" -iquote "/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/FlexiFormat-project-headers.hmap" "-F/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator" "-I/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/include" "-I/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/DerivedSources/i386" "-I/Users/justy/Documents/open src/FlexiFormat/build/FlexiFormat.build/Debug-iphonesimulator/FlexiFormat.build/DerivedSources" -c "/Users/justy/Documents/open src/FlexiFormat/FlexiFormat_Prefix.pch" -o /var/folders/dA/dAphlt6ZH4GW-PkSchfmoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlexiFormat_Prefix-axgalzbhrcvnahczmoktfkgpewsu/FlexiFormat_Prefix.pch.gch0#
+
+CTouch "/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app"
+s309220569.571389
+e309220569.598662
+r1
+xTouch
+x/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app
+lSLF07#2@93"Touch /Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app309220569#309220569#0(0"0(0#0#0"8607508768#296"    cd "/Users/justy/Documents/open src/FlexiFormat"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/justy/Documents/open src/FlexiFormat/build/Debug-iphonesimulator/FlexiFormat.app"0#
+
