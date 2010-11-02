@@ -14,7 +14,9 @@
 #pragma mark -
 #pragma mark Setup
 
-
+/**
+ * initWithFile - create an instance of a FlexibleFormatter using a plist
+ */
 - (id) initWithFile:(NSString *)file_name {
     
     if ((self = [super init])) {
@@ -33,11 +35,16 @@
     
 }
 
+/**
+ Add a formatting rule for an array of present/absent parameters
+ */
 - (void) addRuleForArray:(NSArray *)params withFormatter:(NSString *)formatter {
     [self addRule:[self keyForParameters:params] withFormatter:formatter];
 }
 
-
+/**
+ Add a formatting rule for an explicit rule key
+ */
 - (void) addRule:(NSString *)rule_key withFormatter:(NSString *)formatter {
     
     if (!formats) formats = [[NSMutableDictionary alloc] init];
@@ -48,7 +55,9 @@
     }
 }
 
-
+/**
+ Bulk add rules and formatters, sourced from a dictionary
+ */
 - (void) addRulesAndFormatters:(NSDictionary *)rules_and_formatters {
     
     if (!formats) formats = [[NSMutableDictionary alloc] init];
@@ -59,6 +68,11 @@
 
 #pragma mark -
 #pragma mark Formatting
+
+/**
+ Return a felxibly formatted string, based on an array of string parameters, some of which may be nil.
+ 
+ */
 - (NSString *) flexiblyFormattedString:(NSArray *)params {
  
     // Work out which params are missing
@@ -66,7 +80,6 @@
     
     // Convert this binary rep to an integer
     NSString *rule_key = [self keyForParameters:params];
-    //NSInteger number_of_present_parameters = [self numberOfPresentParameters:params];
    
     // Lookup the formatter
     NSString *formatter = [formats objectForKey:rule_key];
@@ -82,15 +95,13 @@
     free(argList);
     
     return result;
-
-  //  NSAttributedString *s = [[NSAttributedString alloc] initWithString:@"Justy Rocks"];
-    
-    
-
 }
 
 #pragma mark -
 #pragma mark Util
+/**
+ Return a binary (as string) representation of the present/absent parameters
+ */
 - (NSString *) keyForParameters:(NSArray *)params {
     
     // Based on the present / missing params, construct a string like so: @"0011010010"
@@ -108,6 +119,9 @@
     return rule_key;
 }
 
+/**
+ Return the number of non-absent parameters
+ */
 - (NSInteger) numberOfPresentParameters:(NSArray *)params {
     
     NSInteger num_params = 0;
@@ -122,6 +136,9 @@
     return num_params;
 }
 
+/**
+ Return an array constructed from the parameters that are non-absent
+ */
 - (NSArray*) collapseParameters:(NSArray *)params {
     
     NSMutableArray *t_array = [[NSMutableArray alloc] init];

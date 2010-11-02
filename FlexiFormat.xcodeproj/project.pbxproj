@@ -36,6 +36,7 @@
 		32CA4F630368D1EE00C91783 /* FlexiFormat_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexiFormat_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* FlexiFormat-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FlexiFormat-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		CB37A2B4126E72EA009DFE01 /* Street_Formatter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Street_Formatter.plist; path = Classes/Street_Formatter.plist; sourceTree = "<group>"; };
+		CBCBAA5C1280DACD0024325F /* Doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doxyfile; sourceTree = "<group>"; };
 		CBE63F07126E7E3400189544 /* Suburb_Formatter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Suburb_Formatter.plist; path = Classes/Suburb_Formatter.plist; sourceTree = "<group>"; };
 		CBE64173126EBD2A00189544 /* Address_Formatter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Address_Formatter.plist; path = Classes/Address_Formatter.plist; sourceTree = "<group>"; };
 		CBE92D77126E539C00543EA8 /* FlexibleFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexibleFormatter.h; sourceTree = "<group>"; };
@@ -100,6 +101,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CBCBAA5C1280DACD0024325F /* Doxyfile */,
 				CBE64173126EBD2A00189544 /* Address_Formatter.plist */,
 				CB37A2B4126E72EA009DFE01 /* Street_Formatter.plist */,
 				CBE63F07126E7E3400189544 /* Suburb_Formatter.plist */,
@@ -139,6 +141,7 @@
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				CBCBAA131280CF890024325F /* Generate Documentation */,
 			);
 			buildRules = (
 			);
@@ -187,6 +190,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CBCBAA131280CF890024325F /* Generate Documentation */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Documentation";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#\n# Build the doxygen documentation for the project and load the docset into Xcode \n#\n# Created by Fred McCann on 03/16/2010.\n# Last updated 10/26/2010.\n# http://www.duckrowing.com\n#\n# Based on the build script provided by Apple:\n# http://developer.apple.com/tools/creatingdocsetswithdoxygen.html\n#\n# Set the variable $COMPANY_RDOMAIN_PREFIX equal to the reverse domain name of your comany\n# Example: com.duckrowing\n#\n\nDOXYGEN_PATH=\"/Applications/Doxygen.app/Contents/Resources/doxygen\"\nDOCSET_PATH=\"$SOURCE_ROOT/build/$PRODUCT_NAME.docset\"\n\n### JJM: Seems to blat the Doxyfile even if it exists\n#if ! [ -f \\\"$SOURCE_ROOT/Doxyfile\\\" ] \n#then \n#  echo doxygen config file does not exist\n#  $DOXYGEN_PATH -g \"$SOURCE_ROOT/Doxyfile\"\n#fi\n\n#  Append the proper input/output directories and docset info to the config file.\n#  This works even though values are assigned higher up in the file. Easier than sed.\n\ncp \"$SOURCE_ROOT/Doxyfile\" \"$TEMP_DIR/Doxyfile\"\n\n#echo \"INPUT = \\\"$SOURCE_ROOT\\\"\" >> \"$TEMP_DIR/Doxyfile\"\necho \"OUTPUT_DIRECTORY = \\\"$DOCSET_PATH\\\"\" >> \"$TEMP_DIR/Doxyfile\"\necho \"RECURSIVE = YES\" >> \"$TEMP_DIR/Doxyfile\"\n#echo \"EXTRACT_ALL        = YES\" >> \"$TEMP_DIR/Doxyfile\"\necho \"JAVADOC_AUTOBRIEF        = YES\" >> \"$TEMP_DIR/Doxyfile\"\necho \"GENERATE_LATEX        = NO\" >> \"$TEMP_DIR/Doxyfile\"\necho \"GENERATE_DOCSET        = YES\" >> \"$TEMP_DIR/Doxyfile\"\necho \"DOCSET_FEEDNAME = $PRODUCT_NAME Documentation\" >> \"$TEMP_DIR/Doxyfile\"\necho \"DOCSET_BUNDLE_ID       = $COMPANY_RDOMAIN_PREFIX.$PRODUCT_NAME\" >> \"$TEMP_DIR/Doxyfile\"\n\n#  Run doxygen on the updated config file.\n#  Note: doxygen creates a Makefile that does most of the heavy lifting.\n\n$DOXYGEN_PATH \"$TEMP_DIR/Doxyfile\"\n\n#  make will invoke docsetutil. Take a look at the Makefile to see how this is done.\n\nmake -C \"$DOCSET_PATH/html\" install\n\n#  Construct a temporary applescript file to tell Xcode to load a docset.\n\nrm -f \"$TEMP_DIR/loadDocSet.scpt\"\n\necho \"tell application \\\"Xcode\\\"\" >> \"$TEMP_DIR/loadDocSet.scpt\"\necho \"load documentation set with path \\\"/Users/$USER/Library/Developer/Shared/Documentation/DocSets/$COMPANY_RDOMAIN_PREFIX.$PRODUCT_NAME.docset\\\"\" >> \"$TEMP_DIR/loadDocSet.scpt\"\necho \"end tell\" >> \"$TEMP_DIR/loadDocSet.scpt\"\n\n#  Run the load-docset applescript command.\nosascript \"$TEMP_DIR/loadDocSet.scpt\"\n\nexit 0\n\t\t\t\t\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D60588E0D05DD3D006BFB54 /* Sources */ = {

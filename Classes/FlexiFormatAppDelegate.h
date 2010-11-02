@@ -5,7 +5,12 @@
 //  Created by Justin Clayden on 20/10/10.
 //  Copyright 2010 Cool Fusion Multimedia. All rights reserved.
 //
-
+/**
+ @mainpage
+ 
+ @author Justin James Clayden
+ 
+ **/
 #import <UIKit/UIKit.h>
 
 @class FlexiFormatViewController;
