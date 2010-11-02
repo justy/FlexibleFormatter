@@ -15,6 +15,9 @@
 		2899E5220DE3E06400AC0155 /* FlexiFormatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* FlexiFormatViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* FlexiFormatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* FlexiFormatViewController.m */; };
+		CB37A2B5126E72EA009DFE01 /* Street_Formatter.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB37A2B4126E72EA009DFE01 /* Street_Formatter.plist */; };
+		CBE63F08126E7E3400189544 /* Suburb_Formatter.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBE63F07126E7E3400189544 /* Suburb_Formatter.plist */; };
+		CBE64174126EBD2A00189544 /* Address_Formatter.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBE64173126EBD2A00189544 /* Address_Formatter.plist */; };
 		CBE92D79126E539C00543EA8 /* FlexibleFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE92D78126E539C00543EA8 /* FlexibleFormatter.m */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +35,9 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* FlexiFormat_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexiFormat_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* FlexiFormat-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FlexiFormat-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CB37A2B4126E72EA009DFE01 /* Street_Formatter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Street_Formatter.plist; path = Classes/Street_Formatter.plist; sourceTree = "<group>"; };
+		CBE63F07126E7E3400189544 /* Suburb_Formatter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Suburb_Formatter.plist; path = Classes/Suburb_Formatter.plist; sourceTree = "<group>"; };
+		CBE64173126EBD2A00189544 /* Address_Formatter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Address_Formatter.plist; path = Classes/Address_Formatter.plist; sourceTree = "<group>"; };
 		CBE92D77126E539C00543EA8 /* FlexibleFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexibleFormatter.h; sourceTree = "<group>"; };
 		CBE92D78126E539C00543EA8 /* FlexibleFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexibleFormatter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,6 +100,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CBE64173126EBD2A00189544 /* Address_Formatter.plist */,
+				CB37A2B4126E72EA009DFE01 /* Street_Formatter.plist */,
+				CBE63F07126E7E3400189544 /* Suburb_Formatter.plist */,
 				2899E5210DE3E06400AC0155 /* FlexiFormatViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* FlexiFormat-Info.plist */,
@@ -171,6 +180,9 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* FlexiFormatViewController.xib in Resources */,
+				CB37A2B5126E72EA009DFE01 /* Street_Formatter.plist in Resources */,
+				CBE63F08126E7E3400189544 /* Suburb_Formatter.plist in Resources */,
+				CBE64174126EBD2A00189544 /* Address_Formatter.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +236,9 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
 				SDKROOT = iphoneos4.1;
@@ -237,7 +251,9 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;

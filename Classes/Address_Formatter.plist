@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>00</key>
+	<string>(no address recorded)</string>
+	<key>01</key>
+	<string>(no street address recorded) %@</string>
+	<key>10</key>
+	<string>%@ (no suburb address recorded)</string>
+	<key>11</key>
+	<string>%@ %@</string>
+</dict>
+</plist>

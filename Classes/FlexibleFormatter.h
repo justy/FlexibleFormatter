@@ -25,11 +25,19 @@
 
 #pragma mark -
 #pragma mark Setup
-- (void) addRule:(NSInteger)rule_no withFormatter:(NSString *)formatter;
+- (id) initWithFile:(NSString *)file_name;
+- (void) addRuleForArray:(NSArray *)params withFormatter:(NSString *)formatter;
+- (void) addRule:(NSString *)rule_key withFormatter:(NSString *)formatter;
 - (void) addRulesAndFormatters:(NSDictionary *)rules_and_formatters;
 
 #pragma mark -
 #pragma mark Formatting
-- (NSString *) flexiblyFormattedString:(NSDictionary *)params;
+- (NSString *) flexiblyFormattedString:(NSArray *)params;
+
+#pragma mark -
+#pragma mark Util
+- (NSString *) keyForParameters:(NSArray *)params;
+- (NSInteger) numberOfPresentParameters:(NSArray *)params;
+- (NSArray*) collapseParameters:(NSArray *)params;
 
 @end
