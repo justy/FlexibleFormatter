@@ -16,6 +16,18 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* FlexiFormatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* FlexiFormatViewController.m */; };
 		CB37A2B5126E72EA009DFE01 /* Street_Formatter.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB37A2B4126E72EA009DFE01 /* Street_Formatter.plist */; };
+		CBC17ABE1281027B00B72EE0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		CBC17ABF1281027B00B72EE0 /* FlexiFormatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* FlexiFormatViewController.xib */; };
+		CBC17AC01281027B00B72EE0 /* Street_Formatter.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB37A2B4126E72EA009DFE01 /* Street_Formatter.plist */; };
+		CBC17AC11281027B00B72EE0 /* Suburb_Formatter.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBE63F07126E7E3400189544 /* Suburb_Formatter.plist */; };
+		CBC17AC21281027B00B72EE0 /* Address_Formatter.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBE64173126EBD2A00189544 /* Address_Formatter.plist */; };
+		CBC17AC41281027B00B72EE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		CBC17AC51281027B00B72EE0 /* FlexiFormatAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FlexiFormatAppDelegate.m */; };
+		CBC17AC61281027B00B72EE0 /* FlexiFormatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* FlexiFormatViewController.m */; };
+		CBC17AC71281027B00B72EE0 /* FlexibleFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE92D78126E539C00543EA8 /* FlexibleFormatter.m */; };
+		CBC17AC91281027B00B72EE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		CBC17ACA1281027B00B72EE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		CBC17ACB1281027B00B72EE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		CBE63F08126E7E3400189544 /* Suburb_Formatter.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBE63F07126E7E3400189544 /* Suburb_Formatter.plist */; };
 		CBE64174126EBD2A00189544 /* Address_Formatter.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBE64173126EBD2A00189544 /* Address_Formatter.plist */; };
 		CBE92D79126E539C00543EA8 /* FlexibleFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE92D78126E539C00543EA8 /* FlexibleFormatter.m */; };
@@ -36,6 +48,8 @@
 		32CA4F630368D1EE00C91783 /* FlexiFormat_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexiFormat_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* FlexiFormat-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FlexiFormat-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		CB37A2B4126E72EA009DFE01 /* Street_Formatter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Street_Formatter.plist; path = Classes/Street_Formatter.plist; sourceTree = "<group>"; };
+		CBC17AD01281027B00B72EE0 /* FlexiFormat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexiFormat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC17AD21281027B00B72EE0 /* FlexiFormat-Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlexiFormat-Info copy.plist"; sourceTree = "<group>"; };
 		CBCBAA5C1280DACD0024325F /* Doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doxyfile; sourceTree = "<group>"; };
 		CBE63F07126E7E3400189544 /* Suburb_Formatter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Suburb_Formatter.plist; path = Classes/Suburb_Formatter.plist; sourceTree = "<group>"; };
 		CBE64173126EBD2A00189544 /* Address_Formatter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Address_Formatter.plist; path = Classes/Address_Formatter.plist; sourceTree = "<group>"; };
@@ -51,6 +65,16 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC17AC81281027B00B72EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC17AC91281027B00B72EE0 /* Foundation.framework in Frameworks */,
+				CBC17ACA1281027B00B72EE0 /* UIKit.framework in Frameworks */,
+				CBC17ACB1281027B00B72EE0 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* FlexiFormat.app */,
+				CBC17AD01281027B00B72EE0 /* FlexiFormat.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +133,7 @@
 				2899E5210DE3E06400AC0155 /* FlexiFormatViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* FlexiFormat-Info.plist */,
+				CBC17AD21281027B00B72EE0 /* FlexiFormat-Info copy.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -141,7 +167,6 @@
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
-				CBCBAA131280CF890024325F /* Generate Documentation */,
 			);
 			buildRules = (
 			);
@@ -152,11 +177,32 @@
 			productReference = 1D6058910D05DD3D006BFB54 /* FlexiFormat.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CBC17ABC1281027B00B72EE0 /* FlexiFormat Doxygen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBC17ACD1281027B00B72EE0 /* Build configuration list for PBXNativeTarget "FlexiFormat Doxygen" */;
+			buildPhases = (
+				CBC17ABD1281027B00B72EE0 /* Resources */,
+				CBC17AC31281027B00B72EE0 /* Sources */,
+				CBC17AC81281027B00B72EE0 /* Frameworks */,
+				CBC17ACC1281027B00B72EE0 /* Generate Documentation */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FlexiFormat Doxygen";
+			productName = FlexiFormat;
+			productReference = CBC17AD01281027B00B72EE0 /* FlexiFormat.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Cool Fusion Multimedia";
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FlexiFormat" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
@@ -172,6 +218,7 @@
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* FlexiFormat */,
+				CBC17ABC1281027B00B72EE0 /* FlexiFormat Doxygen */,
 			);
 		};
 /* End PBXProject section */
@@ -189,10 +236,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CBC17ABD1281027B00B72EE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC17ABE1281027B00B72EE0 /* MainWindow.xib in Resources */,
+				CBC17ABF1281027B00B72EE0 /* FlexiFormatViewController.xib in Resources */,
+				CBC17AC01281027B00B72EE0 /* Street_Formatter.plist in Resources */,
+				CBC17AC11281027B00B72EE0 /* Suburb_Formatter.plist in Resources */,
+				CBC17AC21281027B00B72EE0 /* Address_Formatter.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		CBCBAA131280CF890024325F /* Generate Documentation */ = {
+		CBC17ACC1281027B00B72EE0 /* Generate Documentation */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -217,6 +276,17 @@
 				1D3623260D0F684500981E51 /* FlexiFormatAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* FlexiFormatViewController.m in Sources */,
 				CBE92D79126E539C00543EA8 /* FlexibleFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC17AC31281027B00B72EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC17AC41281027B00B72EE0 /* main.m in Sources */,
+				CBC17AC51281027B00B72EE0 /* FlexiFormatAppDelegate.m in Sources */,
+				CBC17AC61281027B00B72EE0 /* FlexiFormatViewController.m in Sources */,
+				CBC17AC71281027B00B72EE0 /* FlexibleFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,12 +326,12 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -271,13 +341,40 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CBC17ACE1281027B00B72EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FlexiFormat_Prefix.pch;
+				INFOPLIST_FILE = "FlexiFormat-Info copy.plist";
+				PRODUCT_NAME = FlexiFormat;
+			};
+			name = Debug;
+		};
+		CBC17ACF1281027B00B72EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FlexiFormat_Prefix.pch;
+				INFOPLIST_FILE = "FlexiFormat-Info copy.plist";
+				PRODUCT_NAME = FlexiFormat;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -298,6 +395,15 @@
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBC17ACD1281027B00B72EE0 /* Build configuration list for PBXNativeTarget "FlexiFormat Doxygen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC17ACE1281027B00B72EE0 /* Debug */,
+				CBC17ACF1281027B00B72EE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

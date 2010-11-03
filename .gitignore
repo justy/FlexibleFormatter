@@ -1,0 +1,9 @@
+Documentation/*
+Libraries/ASI-HTTP-Request/
+tmp/
+build/*
+AustarGuide.xcodeproj/project.xcworkspace/*
+AustarGuide.xcodeproj/*.xcuserdatad/*
+AustarGuide.xcodeproj/xcuserdata/*
+AustarGuide.xcodeproj/*.pbxuser
+AustarGuide.xcodeproj/*.perspectivev3

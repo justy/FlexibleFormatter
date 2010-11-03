@@ -23,7 +23,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-
+    
     // Add the view controller's view to the window and display.
     [window addSubview:viewController.view];
     [window makeKeyAndVisible];
@@ -31,7 +31,7 @@
     FlexibleFormatter *street_formatter = [[FlexibleFormatter alloc] initWithFile:@"Street_Formatter"];
     FlexibleFormatter *suburb_formatter = [[FlexibleFormatter alloc] initWithFile:@"Suburb_Formatter"];
     FlexibleFormatter *address_formatter = [[FlexibleFormatter alloc] initWithFile:@"Address_Formatter"];
-
+    
     
     // Test it out
     for (NSInteger i=0; i<100; i++) {
@@ -45,32 +45,34 @@
             NSInteger index_to_remove = arc4random()%[street_params count];
             [street_params replaceObjectAtIndex:index_to_remove withObject:[NSNull null]];
         }
-            
+        
         num_to_remove = arc4random()%[suburb_params count];
         for (NSInteger r=0; r<num_to_remove; r++) {
             NSInteger index_to_remove = arc4random()%[suburb_params count];
             [suburb_params replaceObjectAtIndex:index_to_remove withObject:[NSNull null]];
         }
-    
-    NSString *formatted_street = [street_formatter flexiblyFormattedString:street_params];
-    NSString *formatted_suburb = [suburb_formatter flexiblyFormattedString:suburb_params];
-    
-    NSMutableArray *address_params = [[NSMutableArray alloc] init];
-    if ([formatted_street length] > 0) {
-        [address_params addObject:formatted_street];
-    } else {
-        [address_params addObject:[NSNull null]];
-    }
-    
-    if ([formatted_suburb length] > 0) {
-        [address_params addObject:formatted_suburb];
-    } else {
-        [address_params addObject:[NSNull null]];
-    }
-    
-
-    NSLog(@"Flexibly formatted: %@", [address_formatter flexiblyFormattedString:address_params]);
-    
+        
+        NSString *formatted_street = [street_formatter flexiblyFormattedString:street_params];
+        NSString *formatted_suburb = [suburb_formatter flexiblyFormattedString:suburb_params];
+        
+        NSMutableArray *address_params = [[NSMutableArray alloc] init];
+        if ([formatted_street length] > 0) {
+            [address_params addObject:formatted_street];
+        } else {
+            [address_params addObject:[NSNull null]];
+        }
+        
+        if ([formatted_suburb length] > 0) {
+            [address_params addObject:formatted_suburb];
+        } else {
+            [address_params addObject:[NSNull null]];
+        }
+        
+        
+        NSLog(@"Flexibly formatted: %@", [address_formatter flexiblyFormattedString:address_params]);
+        [street_params release];
+        [suburb_params release];
+        [address_params release];
     }
     
     return YES;
