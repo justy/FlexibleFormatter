@@ -1,0 +1,37 @@
+FlexibleFormatter is a simple string based, gracefully forgiving, content driven string formatting library.
+
+OVERVIEW
+
+This library aims to solve the problem of formatting 'dirty' data.  In this context, 'dirty' simply means 'missing'.
+
+Consider the case in which one has a number of values to format into a resultant string, for example:
+
+NSString *address_string = [NSString stringWithFormat: @"%@/%@ %@, %@ %@ %@", unit_number, street_number, street_name, suburb, state, postcode];
+
+Now let's suppose that any or all of the values to be 'poured in' to the format are missing- in this case, that's 64 possible combinations of missing/present data.
+
+We want to avoid this:
+
+"1/12 Apartment St, (null) NSW (null)"
+
+as well as do smart things like:
+
+15 House St, Redfern (No state provided) (No postcode provided) 
+
+or simply:
+
+15 House St, Redfern
+
+In other words, deal with missing data, as well as special-case certain combinations of missing/present data. 
+
+
+USAGE
+
+This is a single class library.  The Xcode project included in the library is here for the purposes of testing.  (Although no actual tests are yet included, in the modern sense of the word.)
+
+To use it, instantiate an instance of the class, and either provide it with a .plist file, or else add rules and formatters manually using the provided methods.
+
+todo...
+
+
+
