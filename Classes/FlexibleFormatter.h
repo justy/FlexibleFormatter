@@ -18,7 +18,8 @@
 
 @interface FlexibleFormatter : NSObject {
     
-    NSMutableDictionary *formats;               // @"enumerated_combo" : @"%@/%@ %@, %@ %@"
+    NSMutableDictionary *formats;              /*!< This dictionary stores the list of rule -> format entries */
+    // @"enumerated_combo" : @"%@/%@ %@, %@ %@"
 
 }
 

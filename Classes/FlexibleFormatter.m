@@ -14,8 +14,10 @@
 #pragma mark -
 #pragma mark Setup
 
-/**
- * initWithFile - create an instance of a FlexibleFormatter using a plist
+/*!
+ \brief initWithFile - create an instance of a FlexibleFormatter using a plist!
+ \param file_name a string representing the name of the plist (minus '.plist' to be found in the main application bundle) to use to provide the rules/formatters
+ 
  */
 - (id) initWithFile:(NSString *)file_name {
     

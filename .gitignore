@@ -1,9 +1,11 @@
+.DS_Store
 Documentation/*
-Libraries/ASI-HTTP-Request/
 tmp/
 build/*
-AustarGuide.xcodeproj/project.xcworkspace/*
-AustarGuide.xcodeproj/*.xcuserdatad/*
-AustarGuide.xcodeproj/xcuserdata/*
-AustarGuide.xcodeproj/*.pbxuser
-AustarGuide.xcodeproj/*.perspectivev3
+Classes/html/
+Classes/latex/
+FlexiFormat.xcodeproj/project.xcworkspace/*
+FlexiFormat.xcodeproj/*.xcuserdatad/*
+FlexiFormat.xcodeproj/xcuserdata/*
+FlexiFormat.xcodeproj/*.pbxuser
+FlexiFormat.xcodeproj/*.perspectivev3
