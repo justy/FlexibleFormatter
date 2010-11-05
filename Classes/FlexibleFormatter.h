@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 /**
- @brief A model that allows the graceful handling of any of 2^n combinations of present/missing parameters to be formatted.
+ @brief A utility class that allows the graceful handling of any of 2^n combinations of present/missing parameters to be formatted.
   Rule -> Format
   Rules may be exhaustively enumerated (i.e. the counting set of possible combinations)
   Rules may also be specified as a tree; partitioning the possible combinations
